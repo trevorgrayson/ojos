@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D92F6D8A1BAA39580031A899 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D92F6D891BAA39580031A899 /* main.m */; };
+		D92F6D8D1BAA39580031A899 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D92F6D8C1BAA39580031A899 /* AppDelegate.m */; };
+		D92F6D901BAA39580031A899 /* Ojos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D92F6D8E1BAA39580031A899 /* Ojos.xcdatamodeld */; };
+		D92F6D931BAA39580031A899 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92F6D921BAA39580031A899 /* ViewController.m */; };
+		D92F6D961BAA39580031A899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92F6D941BAA39580031A899 /* Main.storyboard */; };
+		D92F6D981BAA39580031A899 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92F6D971BAA39580031A899 /* Images.xcassets */; };
+		D92F6D9B1BAA39580031A899 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D92F6D991BAA39580031A899 /* LaunchScreen.xib */; };
+		D92F6DA71BAA39580031A899 /* OjosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D92F6DA61BAA39580031A899 /* OjosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D92F6DA11BAA39580031A899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D92F6D7C1BAA39580031A899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D92F6D831BAA39580031A899;
+			remoteInfo = Ojos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D92F6D841BAA39580031A899 /* Ojos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ojos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92F6D881BAA39580031A899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D92F6D891BAA39580031A899 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D92F6D8B1BAA39580031A899 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D92F6D8C1BAA39580031A899 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D92F6D8F1BAA39580031A899 /* Ojos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ojos.xcdatamodel; sourceTree = "<group>"; };
+		D92F6D911BAA39580031A899 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D92F6D921BAA39580031A899 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D92F6D951BAA39580031A899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D92F6D971BAA39580031A899 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D92F6D9A1BAA39580031A899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D92F6DA01BAA39580031A899 /* OjosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OjosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92F6DA51BAA39580031A899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D92F6DA61BAA39580031A899 /* OjosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OjosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D92F6D811BAA39580031A899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92F6D9D1BAA39580031A899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D92F6D7B1BAA39580031A899 = {
+			isa = PBXGroup;
+			children = (
+				D92F6D861BAA39580031A899 /* Ojos */,
+				D92F6DA31BAA39580031A899 /* OjosTests */,
+				D92F6D851BAA39580031A899 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D92F6D851BAA39580031A899 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D92F6D841BAA39580031A899 /* Ojos.app */,
+				D92F6DA01BAA39580031A899 /* OjosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D92F6D861BAA39580031A899 /* Ojos */ = {
+			isa = PBXGroup;
+			children = (
+				D92F6D8B1BAA39580031A899 /* AppDelegate.h */,
+				D92F6D8C1BAA39580031A899 /* AppDelegate.m */,
+				D92F6D911BAA39580031A899 /* ViewController.h */,
+				D92F6D921BAA39580031A899 /* ViewController.m */,
+				D92F6D941BAA39580031A899 /* Main.storyboard */,
+				D92F6D971BAA39580031A899 /* Images.xcassets */,
+				D92F6D991BAA39580031A899 /* LaunchScreen.xib */,
+				D92F6D8E1BAA39580031A899 /* Ojos.xcdatamodeld */,
+				D92F6D871BAA39580031A899 /* Supporting Files */,
+			);
+			path = Ojos;
+			sourceTree = "<group>";
+		};
+		D92F6D871BAA39580031A899 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D92F6D881BAA39580031A899 /* Info.plist */,
+				D92F6D891BAA39580031A899 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D92F6DA31BAA39580031A899 /* OjosTests */ = {
+			isa = PBXGroup;
+			children = (
+				D92F6DA61BAA39580031A899 /* OjosTests.m */,
+				D92F6DA41BAA39580031A899 /* Supporting Files */,
+			);
+			path = OjosTests;
+			sourceTree = "<group>";
+		};
+		D92F6DA41BAA39580031A899 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D92F6DA51BAA39580031A899 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D92F6D831BAA39580031A899 /* Ojos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92F6DAA1BAA39580031A899 /* Build configuration list for PBXNativeTarget "Ojos" */;
+			buildPhases = (
+				D92F6D801BAA39580031A899 /* Sources */,
+				D92F6D811BAA39580031A899 /* Frameworks */,
+				D92F6D821BAA39580031A899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ojos;
+			productName = Ojos;
+			productReference = D92F6D841BAA39580031A899 /* Ojos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D92F6D9F1BAA39580031A899 /* OjosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92F6DAD1BAA39580031A899 /* Build configuration list for PBXNativeTarget "OjosTests" */;
+			buildPhases = (
+				D92F6D9C1BAA39580031A899 /* Sources */,
+				D92F6D9D1BAA39580031A899 /* Frameworks */,
+				D92F6D9E1BAA39580031A899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D92F6DA21BAA39580031A899 /* PBXTargetDependency */,
+			);
+			name = OjosTests;
+			productName = OjosTests;
+			productReference = D92F6DA01BAA39580031A899 /* OjosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D92F6D7C1BAA39580031A899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Trevor Grayson";
+				TargetAttributes = {
+					D92F6D831BAA39580031A899 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D92F6D9F1BAA39580031A899 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D92F6D831BAA39580031A899;
+					};
+				};
+			};
+			buildConfigurationList = D92F6D7F1BAA39580031A899 /* Build configuration list for PBXProject "Ojos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D92F6D7B1BAA39580031A899;
+			productRefGroup = D92F6D851BAA39580031A899 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D92F6D831BAA39580031A899 /* Ojos */,
+				D92F6D9F1BAA39580031A899 /* OjosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D92F6D821BAA39580031A899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92F6D961BAA39580031A899 /* Main.storyboard in Resources */,
+				D92F6D9B1BAA39580031A899 /* LaunchScreen.xib in Resources */,
+				D92F6D981BAA39580031A899 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92F6D9E1BAA39580031A899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D92F6D801BAA39580031A899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92F6D901BAA39580031A899 /* Ojos.xcdatamodeld in Sources */,
+				D92F6D8D1BAA39580031A899 /* AppDelegate.m in Sources */,
+				D92F6D931BAA39580031A899 /* ViewController.m in Sources */,
+				D92F6D8A1BAA39580031A899 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92F6D9C1BAA39580031A899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92F6DA71BAA39580031A899 /* OjosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D92F6DA21BAA39580031A899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D92F6D831BAA39580031A899 /* Ojos */;
+			targetProxy = D92F6DA11BAA39580031A899 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D92F6D941BAA39580031A899 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D92F6D951BAA39580031A899 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D92F6D991BAA39580031A899 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D92F6D9A1BAA39580031A899 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D92F6DA81BAA39580031A899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D92F6DA91BAA39580031A899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D92F6DAB1BAA39580031A899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ojos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D92F6DAC1BAA39580031A899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ojos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D92F6DAE1BAA39580031A899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OjosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ojos.app/Ojos";
+			};
+			name = Debug;
+		};
+		D92F6DAF1BAA39580031A899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OjosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ojos.app/Ojos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D92F6D7F1BAA39580031A899 /* Build configuration list for PBXProject "Ojos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92F6DA81BAA39580031A899 /* Debug */,
+				D92F6DA91BAA39580031A899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D92F6DAA1BAA39580031A899 /* Build configuration list for PBXNativeTarget "Ojos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92F6DAB1BAA39580031A899 /* Debug */,
+				D92F6DAC1BAA39580031A899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D92F6DAD1BAA39580031A899 /* Build configuration list for PBXNativeTarget "OjosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92F6DAE1BAA39580031A899 /* Debug */,
+				D92F6DAF1BAA39580031A899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D92F6D8E1BAA39580031A899 /* Ojos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D92F6D8F1BAA39580031A899 /* Ojos.xcdatamodel */,
+			);
+			currentVersion = D92F6D8F1BAA39580031A899 /* Ojos.xcdatamodel */;
+			path = Ojos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D92F6D7C1BAA39580031A899 /* Project object */;
+}
